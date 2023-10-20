@@ -60,6 +60,37 @@ body {
   display: flex;
   justify-content: flex-start;
 }
+
+.bio-page {
+  border: 1px solid lightgrey;
+  margin-bottom: 20px;
+  padding: 10px;
+  display: flex;
+}
+
+.img {
+  height: 30vh;
+  width: 30vw;
+  margin: 2rem;
+  border: solid black 1px;
+}
+
+.Hobbies {
+  color: black;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Hobbies h4 {
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hobby {
+  display: flex;
+}
 main {
   max-width: auto;
   margin: 20px auto;
