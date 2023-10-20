@@ -176,3 +176,25 @@ main {
     padding-right: 25px;
   }
 }
+
+.portfolio {
+  border: 1px solid lightgrey;
+  margin-bottom: 20px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.placeholder {
+  height: 30vh;
+  width: 30vw;
+  margin: 2rem;
+  border: solid black 1px;
+}
+
+#project {
+  text-align: center;
+  background-color: #9f7c9f;
+  border: 1px solid black;
+}
